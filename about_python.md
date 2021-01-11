@@ -41,29 +41,31 @@ Python можно использовать в GNU/Linux, Windows, FreeBSD, Macin
 
 ### Интерпретируемый
 
-This requires a bit of explanation.
+Это требует некоторого пояснения.
 
-A program written in a compiled language like C or C\++ is converted from the source language i.e. C or C++ into a language that is spoken by your computer (binary code i.e. 0s and 1s) using a compiler with various flags and options. When you run the program, the linker/loader software copies the program from hard disk to memory and starts running it.
+Программа, написанная на компилируемом языке программирования, как например, C или C\++, преобразуется из исходного языка (т.е. C или C++) в язык, понятный компьютеру (бинарный код, т.е. нули и единицы) при помощи компилятора с применением разнообразных флагов и параметров. Когда вы запускаете такую программу, компоновщик/загрузчик копирует программу с диска в оперативную память и запускает её.
 
-Python, on the other hand, does not need compilation to binary. You just _run_ the program directly from the source code. Internally, Python converts the source code into an intermediate form called bytecodes and then translates this into the native language of your computer and then runs it. All this, actually, makes using Python much easier since you don't have to worry about compiling the program, making sure that the proper libraries are linked and loaded, etc. This also makes your Python programs much more portable, since you can just copy your Python program onto another computer and it just works!
+Python же, напротив, не требует компиляции в бинарный код. Программа просто _выполняется_ из исходного текста. Python сам преобразует этот исходный текст в некоторую промежуточную форму, называемую байткодом, а затем переводит его на машинный язык и запускает. Всё это заметно облегчает использование Python, поскольку нет необходимости заботиться о компиляции программы, подключении и загрузке нужных библиотек и т.д. Вместе с тем, это делает программы на Python намного более переносимыми, так как достаточно их просто скопировать на другой компьютер, и они работают!
 
 ### Объектно-ориентированный
 
-Python supports procedure-oriented programming as well as object-oriented programming. In _procedure-oriented_ languages, the program is built around procedures or functions which are nothing but reusable pieces of programs. In _object-oriented_ languages, the program is built around objects which combine data and functionality. Python has a very powerful but simplistic way of doing OOP, especially when compared to big languages like C++ or Java.
+Python поддерживает как процедурно-ориентированное, так и объектно-ориентированное программирование. В _процедурно-ориентированных_ языках программы строятся на основе процедур или функций, которые представляют собой просто-напросто многократно используемые фрагменты программы. В _объектно-ориентированных_ языках программирования программы строятся на основе объектов, объединяющих в себе
+данные и функционал. Python предоставляет простые, но мощные средства для ООП, особенно в сравнении с такими большими языками программирования, как C++ или Java.
 
 ### Расширяемый
 
-If you need a critical piece of code to run very fast or want to have some piece of algorithm not to be open, you can code that part of your program in C or C\++ and then use it from your Python program.
+Если вам нужно, чтобы некоторая критическая часть программы работала очень быстро или вы вынуждены скрыть часть алгоритма, вы можете написать эту часть программы на C или C\++, а затем вызывать её из программы на Python.
 
 ### Встраиваемый
 
-You can embed Python within your C/C\++ programs to give _scripting_ capabilities for your program's users.
+Python можно встраивать в программы на C/C\++, чтобы предоставлять возможности _написания сценариев_ их пользователям.
 
 ### Обширные библиотеки
 
-The Python Standard Library is huge indeed. It can help you do various things involving regular expressions,documentation generation, unit testing, threading, databases, web browsers, CGI, FTP, email, XML, XML-RPC, HTML, WAV files, cryptography, GUI (graphical user interfaces), and other system-dependent stuff. Remember, all this is always available wherever Python is installed. This is called the _Batteries Included_ philosophy of Python.
+Стандартная библиотека Python просто огромна. Она может помочь в решении самых разнообразных задач, связанных с использованием регулярных выражений, генерированием документации, проверкой блоков кода, распараллеливанием процессов, базами данных, веб-браузерами, CGI, FTP, электронной почтой, XML, XML-RPC, HTML, WAV файлами, криптографией, GUI (графическим интерфейсом пользователя) и другими системно-
+зависимыми вещами. Помните, что всё это доступно абсолютно везде, где установлен Python. В этом заключается философия Python «Всё включено».
 
-Besides the standard library, there are various other high-quality libraries which you can find at the [Python Package Index](http://pypi.python.org/pypi).
+Кроме стандартной библиотеки, существует множество других высококачественных библиотек, которые можно найти в [Каталоге пакетов Python](http://pypi.python.org/pypi).
 
 ### Резюме
 
@@ -71,11 +73,12 @@ Python – очень увлекательный и мощный язык. Он 
 
 ## Python 3 против 2
 
-You can ignore this section if you're not interested in the difference between "Python version 2" and "Python version 3". But please do be aware of which version you are using. This book is written for Python version 3.
+Если вас не интересует разница между Python 2 и Python 3, вы можете пропустить этот радел. Но в любом случае помните, какую версию вы используете. Эта книга написана для Python версии 3.
 
-Remember that once you have properly understood and learn to use one version, you can easily learn the differences and use the other one. The hard part is learning programming and understanding the basics of Python language itself. That is our goal in this book, and once you have achieved that goal, you can easily use Python 2 or Python 3 depending on your situation.
+Помните, что как только вы как следует усвоите и научитесь пользоваться любым из них, вы также сможете легко освоить разницу
+между ними и адаптироваться. Самое сложное заключается в обучении программированию и понятии основной части языка Python. Это и будет нашей целью в настоящей книге, а как только вы её достигнете, вы сможете запросто использовать Python 2 или Python 3 в зависимости от конкретной ситуации.
 
-For details on differences between Python 2 and Python 3, see:
+Подробнее о различиях между Python 2 и Python 3 см.:
 
 - [Будущее Python 2](http://lwn.net/Articles/547191/)
 - [Портирование кода Python 2 на Python 3](https://docs.python.org/3/howto/pyporting.html)
@@ -84,8 +87,12 @@ For details on differences between Python 2 and Python 3, see:
 
 ## Что говорят программисты
 
-You may find it interesting to read what great hackers like ESR have to say about Python:
+Возможно, Вам будет интересно прочитать, что великие хакеры, такие как ESR, говорят о Python:
 
-- _Eric S. Raymond_ is the author of "The Cathedral and the Bazaar" and is also the person who coined the term _Open Source_. He says that [Python has become his favorite programming language](http://www.python.org/about/success/esr/). This article was the real inspiration for my first brush with Python.
-- _Bruce Eckel_ is the author of the famous 'Thinking in Java' and 'Thinking in C++' books. He says that no language has made him more productive than Python. He says that Python is perhaps the only language that focuses on making things easier for the programmer. Read the [complete interview](http://www.artima.com/intv/aboutme.html) for more details.
-- _Peter Norvig_ is a well-known Lisp author and Director of Search Quality at Google (thanks to Guido van Rossum for pointing that out). He says that [writing Python is like writing in pseudocode](https://news.ycombinator.com/item?id=1803815). He says that Python has always been an integral part of Google. You can actually verify this statement by looking at the [Google Jobs](http://www.google.com/jobs/index.html) page which lists Python knowledge as a requirement for software engineers.
+- _Эрик С. Рэймонд_ – автор работы «Собор и Базар», а также человек, который ввёл термин _Open Source_. Он говорит, что [Python стал его любимым языком програм-
+мирования](http://www.python.org/about/success/esr/). Эта статья и вдохновила меня на пробу пера в Python.
+
+- _Брюс Экель_ – автор знаменитых книг «Думаем на Java» и «Думаем на С++». Он утверждает, что ни на одном языке программирования его работа не была столь эффективной, как на Python. Кроме того, он считает, что Python – это, пожалуй, единственный язык, стремящийся облегчить жизнь программисту. Подробнее можно
+прочитать в его [полном интервью](http://www.artima.com/intv/aboutme.html).
+
+- _Питер Норвиг_ – широкоизвестный автор Lisp, а также директор по качеству поиска в Google (спасибо Гвидо ван Россуму за это замечание). Он говорит, что [кодинг на Python похоже на кодинг в псевдокоде](https://news.ycombinator.com/item?id=1803815). Также он говорит, что Python всегда был неотъемлемой частью Google. Вы можете убедиться в этом, заглянув на страницу [Google Jobs](http://www.google.com/jobs/index.html), на которой владение Python указано как требование для разработчиков программного обеспечения.
