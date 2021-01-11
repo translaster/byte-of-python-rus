@@ -78,10 +78,10 @@ Remember that once you have properly understood and learn to use one version, yo
 
 For details on differences between Python 2 and Python 3, see:
 
-- [The future of Python 2](http://lwn.net/Articles/547191/)
-- [Porting Python 2 Code to Python 3](https://docs.python.org/3/howto/pyporting.html)
-- [Writing code that runs under both Python2 and 3](https://wiki.python.org/moin/PortingToPy3k/BilingualQuickRef)
-- [Supporting Python 3: An in-depth guide](http://python3porting.com)
+- [Будущее Python 2](http://lwn.net/Articles/547191/)
+- [Портирование кода Python 2 на Python 3](https://docs.python.org/3/howto/pyporting.html)
+- [Написание кода, который работает как под Python 2, так и под 3](https://wiki.python.org/moin/PortingToPy3k/BilingualQuickRef)
+- [Поддержка Python 3: подробное руководство](http://python3porting.com)
 
 ## What Programmers Say
 
