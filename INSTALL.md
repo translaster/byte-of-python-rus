@@ -1,21 +1,21 @@
 ```
-# install node.js
-# see https://nodejs.dev/learn/how-to-install-nodejs
+# установка node.js
+# смотри https://nodejs.dev/learn/how-to-install-nodejs
 
-# install honkit
+# установка honkit
 npm install honkit --save-dev
 
-# show website running locally
+# показать веб-сайт, запущенный локально
 npx honkit serve
 
-# generate website files
+# создание файлов веб-сайта
 npx honkit build . public --log=debug
 
-# generate pdf
+# создание pdf
 npx honkit pdf . byte-of-python.pdf
 
-# generate epub
+# создание epub
 npx honkit epub . byte-of-python.epub
 ```
 
-See https://github.com/honkit/honkit and https://honkit.netlify.app/
+Смотрите https://github.com/honkit/honkit и https://honkit.netlify.app/
