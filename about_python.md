@@ -1,46 +1,45 @@
 # About Python
 
-Python is one of those rare languages which can claim to be both _simple_ and _powerful_.  You will find yourself pleasantly surprised to see how easy it is to concentrate on the solution to the problem rather than the syntax and structure of the language you are programming in.
+Python – один из тех редких языков программирования, которые одновременно претендуют на звание _простых_ и _мощных_. Вас приятно удивит то, как легко можно сосредоточиться на решении поставленной задачи, а не на синтаксисе и структуре языка, на котором вы программируете.
 
-The official introduction to Python is:
+Официально Python представляют так:
 
-> Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+> Python – это простой в освоении и мощный язык программирования. Он предоставляет эффективные высокоуровневые структуры данных, а также
+простой, но эффективный подход к объектно-ориентированному программированию. Его элегантный синтаксис и динамическая типизация наряду с тем, что он является интерпретируемым, делают его идеальным языком для написания сценариев и быстрой разработки приложений в различных областях и на большинстве платформ.
 
-I will discuss most of these features in more detail in the next section.
+В следующем разделе мы рассмотрим эти особенности более детально.
 
-## Story behind the name
+## История названия
 
-Guido van Rossum, the creator of the Python language, named the language after the BBC show "Monty
-Python's Flying Circus". He doesn't particularly like snakes that kill animals for food by winding
-their long bodies around them and crushing them.
+Гвидо ван Россум, создатель языка Python, назвал его так в честь телешоу на BBC под названием «Летающий цирк Монти Пайтона» 1 , а вовсе не потому, что он любит змей, убивающих животных обвиванием своего длинного тела вокруг них и задавливанием.
 
-## Features of Python
+## Особенности Python
 
-### Simple
+### Простой
 
-Python is a simple and minimalistic language. Reading a good Python program feels almost like reading English, although very strict English! This pseudo-code nature of Python is one of its greatest strengths. It allows you to concentrate on the solution to the problem rather than the language itself.
+Python – простой и минималистичный язык. Чтение хорошей программы на Python очень напоминает чтение английского текста, хотя и достаточно строгого! Такая псевдо-кодовая природа Python является одной из его самых сильных сторон. Она позволяет вам сосредоточиться на решении задачи, а не на самом языке.
 
-### Easy to Learn
+### Лёгкий в освоении
 
-As you will see, Python is extremely easy to get started with. Python has an extraordinarily simple syntax, as already mentioned.
+Как вы увидите, на Python чрезвычайно легко начать программировать. Python обладает исключительно простым синтаксисом, как уже отмечалось выше.
 
-### Free and Open Source
+### Свободный и открытый
 
-Python is an example of a _FLOSS_ (Free/Libré and Open Source Software). In simple terms, you can freely distribute copies of this software, read its source code, make changes to it, and use pieces of it in new free programs. FLOSS is based on the concept of a community which shares knowledge. This is one of the reasons why Python is so good - it has been created and is constantly improved by a community who just want to see a better Python.
+Python – это пример свободного и открытого программного обеспечения – _FLOSS_ (Free/Libré and Open Source Software). Проще говоря, вы имеете право свободно распространять копии этого программного обеспечения, читать его исходные тексты, вносить изменения, а также использовать его части в своих программах. В основе свободного ПО лежит идея сообщества, которое делится своими знаниями. Это одна из причин, по которым Python так хорош: он был создан и постоянно улучшается сообществом, которое просто хочет сделать его лучше.
 
-### High-level Language
+### Язык высокого уровня
 
-When you write programs in Python, you never need to bother about the low-level details such as managing the memory used by your program, etc.
+При написании программы на Python вам никогда не придётся отвлекаться на такие низкоуровневые детали, как управление памятью, используемой вашей программой, и т.п.
 
-### Portable
+### Портируемый
 
-Due to its open-source nature, Python has been ported to (i.e. changed to make it work on) many platforms. All your Python programs can work on any of these platforms without requiring any changes at all if you are careful enough to avoid any system-dependent features.
+Благодаря своей открытой природе, Python был портирован на много платформ (т.е. изменён таким образом, чтобы работать на них). Все ваши программы смогут запускаться на любой из этих платформ без каких-либо изменений, если только вы избегали использования системно-зависимых функций.
 
-You can use Python on GNU/Linux, Windows, FreeBSD, Macintosh, Solaris, OS/2, Amiga, AROS, AS/400, BeOS, OS/390, z/OS, Palm OS, QNX, VMS, Psion, Acorn RISC OS, VxWorks, PlayStation, Sharp Zaurus, Windows CE and PocketPC!
+Python можно использовать в GNU/Linux, Windows, FreeBSD, Macintosh, Solaris, OS/2, Amiga, AROS, AS/400, BeOS, OS/390, z/OS, Palm OS, QNX, VMS, Psion, Acorn RISC OS, VxWorks, PlayStation, Sharp Zaurus, Windows CE и даже на PocketPC!
 
-You can even use a platform like [Kivy](http://kivy.org) to create games for your computer _and_ for iPhone, iPad, and Android.
+Вы можете даже использовать такую платформу, как [Kivy](http://kivy.org) для создания игр для вашего компьютера _и_ для iPhone, iPad и Android.
 
-### Interpreted
+### Интерпретируемый
 
 This requires a bit of explanation.
 
@@ -48,29 +47,29 @@ A program written in a compiled language like C or C\++ is converted from the so
 
 Python, on the other hand, does not need compilation to binary. You just _run_ the program directly from the source code. Internally, Python converts the source code into an intermediate form called bytecodes and then translates this into the native language of your computer and then runs it. All this, actually, makes using Python much easier since you don't have to worry about compiling the program, making sure that the proper libraries are linked and loaded, etc. This also makes your Python programs much more portable, since you can just copy your Python program onto another computer and it just works!
 
-### Object Oriented
+### Объектно-ориентированный
 
 Python supports procedure-oriented programming as well as object-oriented programming. In _procedure-oriented_ languages, the program is built around procedures or functions which are nothing but reusable pieces of programs. In _object-oriented_ languages, the program is built around objects which combine data and functionality. Python has a very powerful but simplistic way of doing OOP, especially when compared to big languages like C++ or Java.
 
-### Extensible
+### Расширяемый
 
 If you need a critical piece of code to run very fast or want to have some piece of algorithm not to be open, you can code that part of your program in C or C\++ and then use it from your Python program.
 
-### Embeddable
+### Встраиваемый
 
 You can embed Python within your C/C\++ programs to give _scripting_ capabilities for your program's users.
 
-### Extensive Libraries
+### Обширные библиотеки
 
 The Python Standard Library is huge indeed. It can help you do various things involving regular expressions,documentation generation, unit testing, threading, databases, web browsers, CGI, FTP, email, XML, XML-RPC, HTML, WAV files, cryptography, GUI (graphical user interfaces), and other system-dependent stuff. Remember, all this is always available wherever Python is installed. This is called the _Batteries Included_ philosophy of Python.
 
 Besides the standard library, there are various other high-quality libraries which you can find at the [Python Package Index](http://pypi.python.org/pypi).
 
-### Summary
+### Резюме
 
-Python is indeed an exciting and powerful language. It has the right combination of performance and features that make writing programs in Python both fun and easy.
+Python – очень увлекательный и мощный язык. Он имеет хорошее соотношение производительности и возможностей, что делает написание программ на нём одновременно интересным и лёгким.
 
-## Python 3 versus 2
+## Python 3 против 2
 
 You can ignore this section if you're not interested in the difference between "Python version 2" and "Python version 3". But please do be aware of which version you are using. This book is written for Python version 3.
 
@@ -83,7 +82,7 @@ For details on differences between Python 2 and Python 3, see:
 - [Написание кода, который работает как под Python 2, так и под 3](https://wiki.python.org/moin/PortingToPy3k/BilingualQuickRef)
 - [Поддержка Python 3: подробное руководство](http://python3porting.com)
 
-## What Programmers Say
+## Что говорят программисты
 
 You may find it interesting to read what great hackers like ESR have to say about Python:
 
