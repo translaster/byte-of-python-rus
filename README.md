@@ -1,14 +1,14 @@
 # A Byte of Python
 
-"A Byte of Python" is a free book on programming using the Python language. It serves as a tutorial or guide to the Python language for a beginner audience. If all you know about computers is how to save text files, then this is the book for you.
+«A Byte of Python» – это свободная книга по программированию на языке Python. Она может служить учебным пособием или руководством по языку Python для начинающей аудитории. Если ваши знания о компьютере ограничиваются тем, как сохранять текстовые файлы, эта книга для вас.
 
 ## For Python version 3
 
-This book will teach you to use Python version 3. There will also be guidance for you to adapt to the older and more common Python version 2 in the book.
+Настоящая книга описывает Python версии 3. В этой книге вы также найдете рекомендации по адаптации к более старой и распространенной версии Python 2.
 
-## Who reads A Byte of Python? {#who-reads-bop}
+## Кто читает A Byte of Python? {#who-reads-bop}
 
-Here are what people are saying about the book:
+Вот что люди говорят о настоящей книге:
 
 > This is the book that got me into programming almost a decade ago.
 > Thank you @swaroopch. You changed my life.
